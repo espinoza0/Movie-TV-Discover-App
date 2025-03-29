@@ -1,8 +1,18 @@
-# React + Vite
+# React App: Movie & TV Series Discovery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A React application that allows users to search and discover top-rated movies and TV series. Data is provided by the TMDB API (https://www.themoviedb.org/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Search:** Find movies and TV shows by title.
+- **Discovery:** Browse popular and highly-rated content.
+- **Detailed Information:** View details about each movie or series, including ratings and summaries.
+
+## Installation
+
+1. Clone the repository: `git clone <repository_url>`
+2. Install dependencies: `npm install` or `yarn install`
+3. Obtain a TMDB API key and set it as an environment variable.
+4. Run the application: `npm start` or `yarn start`
